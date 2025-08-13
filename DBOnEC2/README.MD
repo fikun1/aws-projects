@@ -3,7 +3,7 @@
 sudo dnf update  
 sudo dnf install -y postgresql15.x86_64 postgresql15-server  
 sudo postgresql-setup --initdb  
-sudo systemctl start postgresql  
+sudo systemctl start postgresql   
 sudo systemctl enable postgresql  
 sudo systemctl status postgresql  
 
